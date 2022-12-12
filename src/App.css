@@ -1,0 +1,235 @@
+.bg{
+  background: linear-gradient(108.7deg, #000000 -1.31%, #2D2D2D -1.3%, #000000 35.38%);
+
+}
+
+/* Header */
+
+.outer-flex-box-container{
+  padding-top: 36px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1248px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-left{
+  font-family: Rajdhani;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 25%;
+  color: white;
+}
+
+.search{
+  font-family: Rajdhani;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  max-height: 38px;
+  max-width: 115px;
+  border-radius: 27px;
+  background: #7DFFA1;
+  margin-right: 28px;
+  height: 38px;
+  width: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search-text{
+  padding-left: 18px;
+  font-family: Rajdhani;
+  border-radius: 27px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  text-align: left;
+  box-shadow: 0px 0px 2px 2px #7DFFA180;
+  color: white;
+  max-width: 285px;
+  max-height: 38px;
+  height: 38px;
+  width: 285px;
+  margin-right: 8px;
+  background: black;
+}
+
+.connect_button{
+  font-family: Rajdhani;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  box-shadow: 0px 0px 2px 2px #7dffa1;
+  border-radius: 27px;
+  max-width: 143.3px;
+  max-height: 38px;
+  width: 143.3px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.left-side{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-flex-box-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Overview */
+
+/* Profile */
+
+.asset-text{
+  font-family: Rajdhani;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #F9F9F9;
+}
+
+.table-ids{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.assets-container{
+  background: linear-gradient(0deg, #1E1E1E, #1E1E1E);
+  box-shadow: 0px 0px 12.471795082092285px -1.9692308902740479px #FFFFFF73;
+  max-width: 512px;
+  height: 100%;
+  width: 100%;
+  border-radius: 6.56px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 21.38px;
+  padding-top: 14.44px;
+}
+
+.profile-header-text{
+  font-family: Rajdhani;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  margin-bottom: 24px;
+}
+
+.profile-image{
+  max-height: 138px;
+  max-width: 138px;
+  margin-right: 33px;
+}
+
+.profile-wallet-information{
+  margin-bottom: 38px;
+}
+
+.wallet-worth{
+  font-family: Poppins;
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 85px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.wallet-worth::before{
+  content: '$';
+}
+
+.wallet-change{
+  font-family: Poppins;
+  font-size: 23px;
+  font-weight: 300;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0DFF09;
+}
+
+.wallet-id{
+  font-family: Be Vietnam;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.wallet-id::before{
+  content: 'ID';
+  font-family: Rajdhani;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #F9F9F9;
+}
+
+.profile-wallet-information{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profile-left-side{
+  margin-right: 38.76px;
+}
+
+.profile-outer-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profile-outer-container{
+  max-width: 1248px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 56px;
+}
+
+.profile-right-side,
+.profile-left-side{
+  width: 50%;
+}
